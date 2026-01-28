@@ -4,7 +4,7 @@ import axios from "axios";
 const city = process.argv[2]?.trim();
 
 if (!city) {
-  console.log("❌ Please provide a city name, e.g.: node index.js London");
+  console.log("❌ Please provide a city name, e.g.: node index.js London...");
   process.exit(1);
 }
 
